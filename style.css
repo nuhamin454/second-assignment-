@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Static */
+.static-box {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Relative */
+.relative-box {
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px 0;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+/* Absolute */
+.absolute-box {
+    background-color: lightcoral;
+    padding: 10px;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+
+/* Fixed */
+.fixed-box {
+    background-color: lightyellow;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
